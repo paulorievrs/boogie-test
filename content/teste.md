@@ -1,0 +1,27 @@
+---
+title: 'Test'
+---
+
+Na programação existem inúmeros editores de texto, eles são denominados de **IDE's**, ao pé da letra, não é necessário utiliza-los, um simples bloco de notas resolveria, porém, ao longo da utilização e do aprendizado, você verá o quão poderoso são essas **IDE's**.
+
+No nosso caso, utilizaremos o **Visual Studio Code**, que, além de gratuito, oferece inúmeros aportes para qualquer linguagem, não somente Java como será apresentado neste curso. Existem outros editores como **Eclipse e IntelliJ IDEA**, fique à vontade para experimentar e conhecê-los.
+
+As IDE's são utilizadas específicamente para desenvolvimento de software, já que diferentemente de um editor de texto ela permite você compilar seu código, formata-lo, apresenta erros antes de ser compilado ou executado, apresenta opções para complemento de código, no qual um bloco de notas não realiza.
+
+### Configuração do editor ###
+
+O Visual Studio Code, como dito, é um editor feito para muitas linguagens, mas, para se adequar as linguagens e para facilitar a escrita do código são necessárias as **extensões**.
+
+Elas são importantes pois mostram aonde estão os erros, completam parte do código, e isso vai fazendo sentido ao longo do que você vai implementando. 
+
+### Extensões ###
+
+#### 1) Language Support for Java(TM) by Red Hat
+
+Essa extensão auxilia em praticamente tudo que um programador precisa, demonstra aonde há erros no código, diz aonde você escreveu uma variável incorreta, ele auxilia bastante.
+
+#### 2) Java Test Runner
+
+Existem linguagens compiladas e interpretadas, mais a frente você entenderá a diferença entre as duas, mas, por agora é necessário que você saiba que Java é uma linguagem compilada, então, é necessário um compilador para ela. Para compilar podem ser utilizados comandos, mas, essa extensão possibilita que com um clique a compilação seja efetuada.
+
+

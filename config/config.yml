@@ -32,14 +32,24 @@ features:
     location: ''
     type: __none
   search:
-    enabled: false
-    indexName: docs
-    showStats: true
+    enabled: true,
+    engine: 'localsearch'
+    localSearchEngine: 'balance'
+    excerptSize: 10000
+    placeholder: 'Pesquisar...'
+    startComponent: 'input'
+    debounceTime: 380,
+    snippetLength: 22,
+    hitsPerPage: 10,
+    showStats: true,
     pagination:
-      enabled: true
+      enabled: true,
+      totalPages: 10,
+      showNext: false,
+      showPrevious: false
   rss:
-    enabled: true
-    showIcon: true
+    enabled: false
+    showIcon: false
     copyright: ''
     categories: []
     matchRegex: ^/
