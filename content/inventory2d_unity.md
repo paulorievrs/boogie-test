@@ -64,7 +64,6 @@ using UnityEngine;
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("sim olá");
             for (int i = 0; i < inventory.slots.Length; i++)
             {
                 if(inventory.isFull[i] == false)
